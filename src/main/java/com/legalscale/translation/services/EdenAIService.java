@@ -63,7 +63,7 @@ public class EdenAIService {
                     System.out.println("Cost: " + cost);
                     System.out.println("Doc-url: " + fileURL);
 
-                    dumpFile("Result.pdf", fileURL);
+                    dumpFile(filename + "-Eden.pdf", fileURL);
 
                 } else {
                     System.out.println("Request failed with code: " + response.code());
